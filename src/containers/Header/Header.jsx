@@ -1,10 +1,27 @@
-import React from 'react'
-import './header.css'
+import React from 'react';
+import p1 from '../../assets/p-1.png';
+import p2 from '../../assets/p-2.png';
+import './header.css';
 
-const Header = () => {
-  return (
-    <div>Header</div>
-  )
-}
+const Header = () => (
+  <div className="fa__header section__padding" id="home">
 
-export default Header
+    <div className="fa__header-content">
+      <h3>Food App</h3>
+      <h1 className="gradient__text">Why stay hungry when you can order from Bella Olonje</h1>
+      <h4>Download the bella olonje&apos;s food app now on</h4>
+      <div className="fa__header-content__input-center">
+      <button type="button" className='fa__header-content__input-button1'>Playstore</button>
+      <button type="button" className='fa__header-content__input-button2'>App Store</button>
+      </div>
+    <div className='fa__header-content__phoneimg'>
+    <img id='phoneimg_p1' src={p1} />
+    <img id='phoneimg_p2' src={p2} />
+    </div>
+    
+      </div>
+
+  </div>
+);
+
+export default Header;

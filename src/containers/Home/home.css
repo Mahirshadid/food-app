@@ -1,0 +1,150 @@
+.fa__how {
+    display: flex;
+    flex-direction: row;
+    margin-top: 550px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.fa__how-content {
+    text-align: center;
+    font-family: var(--font-family);
+    color: #252B42;
+}
+
+.fa__how-content h2,
+.fa__how-content h3,
+.fa__how-content h4,
+.fa__how-content__phoneimg {
+    margin: 0; /* Remove default margins for text elements */
+}
+
+.fa__how-content__hr h3 {
+    font-family: var(--font-family-2);
+    color: black;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    margin-top: 50px;
+}
+
+#hr {
+    width: 884px;
+    border: 3px;
+    color: #E4E4E4;
+}
+
+.fa__how-content__others {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa__how-content__others-text {
+    text-align: start;
+    flex-direction: column;
+}
+
+#cra {
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    margin-bottom: 20px;
+}
+
+#exa {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    padding: 10px, 0px, 10px, 0px;
+}
+
+#epa {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 467px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .fa__how {
+        flex-direction: column;
+    }
+
+    #hr {
+        width: 400px;
+    }
+
+    .fa__how-content__others {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa__how-content__others-text {
+        margin-top: -50px;
+        text-align: center;
+        width: 90%;
+    }
+
+    #epa {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #phoneimg_p3 {
+        width: 100%;
+        margin-left: 10%;
+    } 
+}
+
+@media screen and (max-width: 650px) {
+
+
+    .fa__how {
+        margin-top: 0;
+    }
+
+    #haw {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    #hr {
+        width: 200px;
+    }
+
+    #cra {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    #exa {
+        font-size: 20px;
+        line-height: 37px;
+    }
+    
+    #epa {
+        font-size: 14px;
+        line-height: 24px;
+        width: 70%;
+    }
+
+    #phoneimg_p3 {
+        width: 90%;
+        margin-left: 14%;
+    }
+
+
+}

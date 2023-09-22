@@ -1,0 +1,245 @@
+.fa__header {
+    display: flex;
+    flex-direction: row;
+    background-image: url('/src/assets/back-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 674px;
+}
+
+.fa__header-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+}
+
+.fa__header-content h1,
+.fa__header-content h3,
+.fa__header-content h4,
+.fa__header-content__phoneimg {
+    margin: 0; /* Remove default margins for text elements */
+}
+
+.fa__header-content h1 {
+    font-family: var(--font-family-2);
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.fa__header-content h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F6F6F6;
+    letter-spacing: 0.1px;
+
+    margin-top: 1.5rem;
+}
+
+.fa__header-content h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #F6F6F6;
+
+    margin-top: 1.5rem;
+}
+.fa__header-content__input-center {
+    margin-top: 50px;
+}
+
+.fa__header-content__input-button1 {
+    flex: 0.5;
+    width: 236px;
+    min-height: 68px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 16px, 0px, 16px, 0px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.fa__header-content__input-button2{
+    flex: 0.5;
+    width: 236px;
+    min-height: 68px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    background: #ffffff00;
+    border: 1px solid #FFFFFF;
+    padding: 16px, 0px, 16px, 0px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    margin: 20px;
+
+    border-radius: 30px;
+}
+
+.fa__header-content__phoneimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -125px;
+}
+
+.fa__header-content__phoneimg img {
+    justify-content: space-between;
+    margin: 0; /* Remove default margins for images */
+    padding: 0; /* Remove default padding for images */
+ /* Add absolute positioning to the images */
+}
+
+.fa__header-content__phoneimg img:first-child {
+    margin-right: -15rem;
+    z-index: 1; /* Place p1 in front */
+}
+
+#phoneimg_p1 {
+    margin-top: -8rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .fa__header {
+        flex-direction: column;
+    }
+
+    .fa__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .fa__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .fa__header-content__input-button1,
+    .fa__header-content__input-button2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .fa__header {
+        display: flex;
+        flex-direction: column;
+        background-image: url('/src/assets/back-1.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    .fa__header-content h1 {
+        font-size: 24px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    .fa__header-content h3 {
+        font-size: 16px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+
+    .fa__header-content__input-button1,
+    .fa__header-content__input-button2 {
+        font-size: 14px;
+        width: 10rem;
+
+        margin-top: 1rem;
+    }
+
+
+    .fa__header-content__phoneimg {
+        width: 100%;
+        
+    }
+
+    .fa__header-content__phoneimg img {
+        width: 45%;
+        margin-left: 15rem;
+        margin-top: 2rem;
+    }
+
+    .fa__header-content__phoneimg img:last-child {
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .fa__header {
+        display: flex;
+        flex-direction: column;
+        background-image: url('/src/assets/back-1.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    .fa__header-content h1 {
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .fa__header-content h3 {
+        font-size: 13px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .fa__header-content h4 {
+        font-size: 13px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+
+    .fa__header-content__input-button1,
+    .fa__header-content__input-button2 {
+        font-size: 11px;
+        width: 6rem;
+        margin-top: 0.5rem;
+    }
+
+
+    .fa__header-content__phoneimg {
+        width: 100%;
+        
+    }
+
+    .fa__header-content__phoneimg img {
+        width: 50%;
+        margin-left: 15rem;
+        margin-top: 1rem;
+    }
+
+    .fa__header-content__phoneimg img:last-child {
+        margin-left: 12rem;
+    }
+}

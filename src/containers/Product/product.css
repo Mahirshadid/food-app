@@ -1,0 +1,128 @@
+.fa__product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: -150px;
+}
+
+.fa__product-content {
+    text-align: center;
+    font-family: var(--font-family);
+    color: #252B42;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.fa__product-content h2,
+.fa__product-content h3,
+.fa__product-content h4,
+.fa__product-content__phoneimg {
+    margin: 0; /* Remove default margins for text elements */
+}
+
+
+.fa__product-content-text {
+    text-align: start;
+    flex-direction: column;
+}
+
+#pt1 {
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    margin-bottom: 20px;
+}
+
+#pt2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    padding: 10px, 0px, 10px, 0px;
+    width: 480px;
+}
+
+#pt3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 467px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .fa__product {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .fa__product-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .fa__product-content-text {
+        text-align: center;
+    }
+
+    #pt2 {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #pt3 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #phoneimg_p4 {
+        width: 100%;
+        margin-left: 10%;
+    } 
+}
+
+@media screen and (max-width: 650px) {
+
+
+    .fa__product {
+        margin-top: 0;
+    }
+
+    #pt1 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    #pt2 {
+        font-size: 20px;
+        line-height: 37px;
+    }
+    
+    #pt3 {
+        font-size: 14px;
+        line-height: 24px;
+        width: 70%;
+    }
+
+    #phoneimg_p4 {
+        width: 90%;
+        margin-left: 14%;
+    }
+
+
+}
