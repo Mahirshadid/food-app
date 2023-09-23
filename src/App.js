@@ -1,4 +1,5 @@
 import React from 'react'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 import {Home, Product, Faq, Contact, Header, Footer} from './containers'
 import {Navbar} from './components'

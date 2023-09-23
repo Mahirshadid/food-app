@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    color: #252B42;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.btn_form {
+    flex: 0.5;
+    width: 142px;
+    min-height: 68px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 18px, 31px, 18px, 31px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .container h2 {
+        font-size: 24px;
+    }
+
+    .btn_form {
+        font-size: 13px;
+        margin-top: 10px;
+        width: 7rem;
+    }
+}

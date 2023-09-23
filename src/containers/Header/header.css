@@ -4,7 +4,7 @@
     background-image: url('/src/assets/back-1.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 674px;
+    height: auto;
 }
 
 .fa__header-content {
@@ -142,12 +142,6 @@
 @media screen and (max-width: 550px) {
 
     .fa__header {
-        display: flex;
-        flex-direction: column;
-        background-image: url('/src/assets/back-1.png');
-        background-repeat: no-repeat;
-        background-size: auto;
-        height: auto;
         width: 100%;
     }
 
@@ -191,15 +185,6 @@
 
 @media screen and (max-width: 375px) {
 
-    .fa__header {
-        display: flex;
-        flex-direction: column;
-        background-image: url('/src/assets/back-1.png');
-        background-repeat: no-repeat;
-        background-size: auto;
-        height: auto;
-        width: 100%;
-    }
 
     .fa__header-content h1 {
         font-size: 16px;

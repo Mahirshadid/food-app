@@ -1,7 +1,6 @@
 .fa__how {
     display: flex;
     flex-direction: row;
-    margin-top: 550px;
     justify-content: center;
     align-items: center;
     height: auto;
@@ -84,6 +83,7 @@
 
     #hr {
         width: 400px;
+
     }
 
     .fa__how-content__others {
@@ -117,7 +117,6 @@
     }
 
     #haw {
-        margin: 0;
         font-size: 20px;
     }
 
@@ -147,4 +146,11 @@
     }
 
 
+}
+
+@media screen and (max-width: 550px) {
+
+    #hr {
+        margin-top: 0;
+    }
 }

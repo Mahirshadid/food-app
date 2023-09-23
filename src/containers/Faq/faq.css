@@ -1,0 +1,147 @@
+.fa__faq {
+    display: flex;
+    flex-direction: row;
+    background-image: url('/src/assets/back-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.fa__faq-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+}
+
+.fa__faq-content h2,
+.fa__faq-content h4 {
+    margin: 0; /* Remove default margins for text elements */
+}
+
+.fa__faq-content h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+}
+
+.fa__faq-content h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #F6F6F6;
+
+    margin-top: 1.5rem;
+}
+.fa__faq-content__input-center {
+    margin-top: 50px;
+}
+
+.fa__faq-content__input-button1 {
+    flex: 0.5;
+    width: 142px;
+    min-height: 68px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 18px, 31px, 18px, 31px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.fa__faq-content__input-button2{
+    flex: 0.5;
+    width: 142px;
+    min-height: 68px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    background: #ffffff00;
+    border: 1px solid #FFFFFF;
+    padding: 18px, 31px, 18px, 31px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    margin: 20px;
+
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+    .fa__faq {
+        flex-direction: column;
+    }
+
+    .fa__faq-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .fa__faq-content__input-button1,
+    .fa__faq-content__input-button2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .fa__faq-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+
+    .fa__faq-content__input-button1,
+    .fa__faq-content__input-button2 {
+        font-size: 14px;
+        width: 10rem;
+
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .fa__faq-content h2 {
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .fa__faq-content h4 {
+        font-size: 13px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+
+    .fa__faq-content__input-button1,
+    .fa__faq-content__input-button2 {
+        font-size: 11px;
+        width: 6rem;
+        margin-top: 0.5rem;
+    }
+}
