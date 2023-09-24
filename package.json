@@ -1,5 +1,6 @@
 {
-  "homepage": "https://Mahirshadid.github.io/food-app",
+  "homepage": "http://Mahirshadid.github.io/food-app",
+  "name": "bella-olonje",
   "dependencies": {
     "bootstrap": "^5.3.2",
     "node": "^20.6.0",
