@@ -15,8 +15,8 @@ const Contact = () => {
     console.log(conFom)
   }
   return (
-    <div className="container mt-5" id='contact'>
-      <h2 className="mb-3">Any query? Feel free to contact.</h2>
+    <div className="container mt-5 section__padding" id='contact'>
+      <h2 className="mb-3" id='faq_q'>Any query? Feel free to contact.</h2>
       <form onSubmit={onSubmit}>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">

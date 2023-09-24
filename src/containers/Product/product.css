@@ -111,6 +111,20 @@
     margin-right: -20%;
 }
 
+.fa__pay-swipe {
+    text-align: center;
+}
+
+#pt7 {
+    font-family: var(--font-family-2);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #FA4A0C;
+    margin-top: auto;
+}
+
 @media screen and (max-width: 1050px) {
     .fa__product {
         flex-direction: column;
@@ -234,6 +248,7 @@
         font-size: 14px;
         line-height: 24px;
         width: 70%;
+        margin-bottom: 20px;
     }
 
     #phoneimg_p5 {
@@ -242,5 +257,10 @@
         margin-top: -4rem;
     }
 
+    #pt7 {
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
 
 }
