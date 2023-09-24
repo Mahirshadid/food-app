@@ -59,42 +59,47 @@
 
 .fa__header-content__input-button1 {
     flex: 0.5;
-    width: 236px;
+    width: 150px;
     min-height: 68px;
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
     background: #FF4820;
     border: 2px solid #FF4820;
-    padding: 16px, 0px, 16px, 0px;
+  
     color: #fff;
     cursor: pointer;
     outline: none;
-    border-radius: 30px;
+    border-radius: 10px;
     margin: 20px;
 }
 
 .fa__header-content__input-button2{
     flex: 0.5;
-    width: 236px;
+    width: 150px;
     min-height: 68px;
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.1px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
     background: #ffffff00;
     border: 1px solid #FFFFFF;
-    padding: 16px, 0px, 16px, 0px;
     color: #fff;
     cursor: pointer;
     outline: none;
     margin: 20px;
 
-    border-radius: 30px;
+    border-radius: 10px;
 }
+
+.fa__header-content__input-button1:hover,
+.fa__header-content__input-button2:hover {
+    border: 3px solid #00ffd5;
+}
+
 
 .fa__header-content__phoneimg {
     display: flex;
@@ -112,12 +117,14 @@
 
 .fa__header-content__phoneimg img:first-child {
     margin-right: -15rem;
-    z-index: 1; /* Place p1 in front */
+    z-index: 1;
 }
 
-#phoneimg_p1 {
-    margin-top: -8rem;
+.fa__header-content__phoneimg img:last-child {
+    margin-top: 5rem;
 }
+
+
 
 @media screen and (max-width: 1050px) {
     .fa__header {

@@ -12,7 +12,7 @@ const Header = () => (
       <h4>Download the bella olonje&apos;s food app now on</h4>
       <div className="fa__header-content__input-center">
       <a href='https://play.google.com/'><button type="button" className='fa__header-content__input-button1'>Playstore</button></a>
-      <a href='https://www.apple.com/app-store/'><button type="button" className='fa__header-content__input-button2'>App Store</button></a>
+      <a href='https://www.apple.com/app-store/'><button type="button" className='fa__header-content__input-button2'>AppStore</button></a>
       </div>
     <div className='fa__header-content__phoneimg'>
     <img id='phoneimg_p1' src={p1} />
